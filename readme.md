@@ -12,6 +12,12 @@ To work around this limitation you can include the curl.h
 header directly from libcurl rather than getting the
 definition from the AAR.
 
+Note that there is a Google issue tracking the linking of
+C++ libraries which are not actually used by Curl or
+OpenSSL.
+
+	https://github.com/google/prefab/issues/134
+
 build.gradle
 ============
 
